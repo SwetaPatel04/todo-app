@@ -49,6 +49,9 @@ git clone https://github.com/SwetaPatel04/todo-app.git
 2. Open `index.html` in your browser
 3. Start adding tasks!
 
+### 🎭 Playwright Test Report
+![Playwright Report](images/playwright-report.png)
+
 ## 📋 Project Management
 - Managed using **Jira** with Scrum methodology
 - 2 Sprints completed
