@@ -23,9 +23,7 @@ A simple Todo App where you can:
 - Azure — Cloud deployment
 
 ## 📸 Screenshots
-<!-- We will add screenshots here later -->
-Coming soon...
-
+![Todo App](images/todo-app.png)
 ## 👤 Author
 <!-- Add your name here -->
 Your Name Here
