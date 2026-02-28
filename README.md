@@ -3,8 +3,9 @@
 <!-- This is a README file — it explains your project to anyone who visits -->
 
 ## 🌐 Live Demo
-<!-- We will add the Azure link here later -->
-Coming soon...
+[Click here to view live app][Click here to view live app][Click here to view live app](https://orange-field-04b13e90f.2.azurestaticapps.net)
+
+
 
 ## 📌 About This Project
 <!-- Describe what your project does -->
