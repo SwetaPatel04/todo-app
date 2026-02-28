@@ -1,0 +1,58 @@
+<!-- This is an HTML file — it defines the STRUCTURE of our webpage -->
+
+<!DOCTYPE html> 
+<!-- Tells the browser this is a modern HTML5 page -->
+
+<html lang="en">
+<!-- Root element of the page, lang="en" means English -->
+
+<head>
+  <!-- Head section — contains settings, not visible on page -->
+  
+  <meta charset="UTF-8">
+  <!-- Supports all characters like @, #, emojis etc -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Makes the page look good on mobile screens -->
+  
+  <title>My Todo App</title>
+  <!-- This text appears on the browser tab -->
+  
+  <link rel="stylesheet" href="style.css">
+  <!-- Connects our CSS file to this HTML file for styling -->
+  
+</head>
+
+<body>
+  <!-- Body section — everything visible on the page goes here -->
+
+  <div class="container">
+  <!-- div is a box/container — class="container" lets us style it in CSS -->
+
+    <h1>📝 My Todo App</h1>
+    <!-- h1 is the biggest heading on the page -->
+
+    <div class="input-section">
+    <!-- Another box that holds our input field and button together -->
+
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <!-- Text box where user types their task -->
+      <!-- id="taskInput" lets JavaScript find this element -->
+      <!-- placeholder is the grey hint text inside the box -->
+
+      <button onclick="addTask()">Add Task</button>
+      <!-- Button that calls addTask() function in script.js when clicked -->
+
+    </div>
+
+    <ul id="taskList"></ul>
+    <!-- ul = unordered list — our tasks will appear here -->
+    <!-- id="taskList" lets JavaScript add tasks to this list -->
+
+  </div>
+
+  <script src="script.js"></script>
+  <!-- Connects our JavaScript file — always at bottom of body -->
+
+</body>
+</html>

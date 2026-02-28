@@ -1,0 +1,109 @@
+/* This is a CSS file — it controls how our page LOOKS */
+
+/* The * selector applies these styles to EVERY element on the page */
+* {
+  margin: 0;        /* Removes default spacing outside elements */
+  padding: 0;       /* Removes default spacing inside elements */
+  box-sizing: border-box; /* Makes sizing more predictable */
+}
+
+/* Styles for the body — the entire page background */
+body {
+  font-family: Arial, sans-serif; /* Sets the font for whole page */
+  background: #f0f2f5;            /* Light grey background color */
+  display: flex;                  /* Makes content layout flexible */
+  justify-content: center;        /* Centers content horizontally */
+  padding: 40px;                  /* Adds space around the edges */
+}
+
+/* Styles for our main white box in the center */
+.container {
+  background: white;              /* White background for the box */
+  padding: 30px;                  /* Space inside the box */
+  border-radius: 12px;            /* Rounds the corners of the box */
+  width: 500px;                   /* Fixed width of the box */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Adds a soft shadow */
+}
+
+/* Styles for the h1 heading — "My Todo App" */
+h1 {
+  text-align: center;   /* Centers the heading text */
+  margin-bottom: 20px;  /* Adds space below the heading */
+  color: #333;          /* Dark grey color for the text */
+}
+
+/* Styles for the box that holds input + button together */
+.input-section {
+  display: flex;        /* Places input and button side by side */
+  gap: 10px;            /* Space between input and button */
+  margin-bottom: 20px;  /* Space below the input section */
+}
+
+/* Styles for the text input box */
+input {
+  flex: 1;              /* Input takes up all available space */
+  padding: 10px;        /* Space inside the input box */
+  border: 1px solid #ddd; /* Light grey border around input */
+  border-radius: 8px;   /* Rounds the corners of input */
+  font-size: 14px;      /* Text size inside input */
+}
+
+/* Styles for the Add Task button */
+button {
+  padding: 10px 20px;   /* Space inside button (top/bottom, left/right) */
+  background: #4A90E2;  /* Blue background color */
+  color: white;         /* White text color */
+  border: none;         /* Removes default border */
+  border-radius: 8px;   /* Rounds the corners */
+  cursor: pointer;      /* Shows hand cursor when hovering */
+  font-size: 14px;      /* Text size */
+}
+
+/* Styles for button when mouse hovers over it */
+button:hover {
+  background: #357ABD;  /* Slightly darker blue on hover */
+}
+
+/* Styles for the task list */
+ul {
+  list-style: none;     /* Removes default bullet points */
+}
+
+/* Styles for each individual task item */
+li {
+  display: flex;                    /* Places text and buttons side by side */
+  justify-content: space-between;   /* Pushes text left, buttons right */
+  align-items: center;              /* Vertically centers everything */
+  padding: 12px;                    /* Space inside each task item */
+  margin-bottom: 8px;               /* Space between task items */
+  background: #f9f9f9;              /* Very light grey background */
+  border-radius: 8px;               /* Rounds the corners */
+  border-left: 4px solid #4A90E2;   /* Blue line on the left side */
+}
+
+/* Styles for a task that is marked as DONE */
+li.done {
+  text-decoration: line-through;  /* Strikes through the text */
+  color: #aaa;                    /* Makes text light grey */
+  border-left-color: #aaa;        /* Changes left border to grey */
+}
+
+/* Styles for the div holding Done and Delete buttons */
+.actions {
+  display: flex;  /* Places buttons side by side */
+  gap: 8px;       /* Space between the two buttons */
+}
+
+/* Styles for the green Done button */
+.done-btn {
+  background: #27ae60;  /* Green color */
+  padding: 5px 10px;    /* Smaller padding than main button */
+  font-size: 12px;      /* Smaller text */
+}
+
+/* Styles for the red Delete button */
+.delete-btn {
+  background: #e74c3c;  /* Red color */
+  padding: 5px 10px;    /* Smaller padding than main button */
+  font-size: 12px;      /* Smaller text */
+}
