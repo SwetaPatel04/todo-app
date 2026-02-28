@@ -32,3 +32,6 @@ Your Name Here
 <!-- Current status of the project -->
 ✅ Week 1 Complete — App Built & Pushed to GitHub
 🔄 Week 2 In Progress — Jira & Azure Setup
+
+## 🔗 Jira Integration
+Connected Jira project: Todo App Project (TAP)
