@@ -28,8 +28,18 @@ A simple and clean Todo App built as part of my DevOps learning journey.
 | ALM | Application lifecycle management |
 
 ## 📸 Screenshots
-<!-- Add your screenshots here -->
-Coming soon...
+### 🌐 Live Todo App
+![Todo App](images/todo-app.png)
+
+### 📋 Jira Board
+![Jira Board](images/jira-board.png)
+(images/jira-board-2.png)
+
+### 📋 Jira Backlog
+![Jira Backlog](images/jira-backlog.png)
+
+### 💻 GitHub Repository
+![GitHub Repo](images/github-repo.png)
 
 ## 🚀 How to Run Locally
 1. Clone the repository
