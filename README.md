@@ -49,6 +49,22 @@ git clone https://github.com/SwetaPatel04/todo-app.git
 - **Azure Static Web Apps** auto deploys on every push
 - Live URL updates within 2-3 minutes
 
+## 🔄 Application Lifecycle Management (ALM)
+This project follows a complete ALM process:
+
+| ALM Phase | What Was Done | Tool Used |
+|-----------|--------------|-----------|
+| **Planning** | Created user stories & sprints | Jira |
+| **Development** | Built app features | VS Code |
+| **Version Control** | Tracked all code changes | Git & GitHub |
+| **Testing** | Manually tested all features | Browser |
+| **Deployment** | Deployed app to cloud | Azure |
+| **Maintenance** | Auto deploy on every push | Azure CI/CD |
+
+> 💡 ALM is not just a tool — it's the complete process of managing
+> an application from idea to deployment. This entire project 
+> demonstrates ALM in action!
+
 ## 👤 Author
 **Sweta Patel**
 - GitHub: [@SwetaPatel04](https://github.com/SwetaPatel04)
