@@ -1,38 +1,59 @@
 # 📝 My Todo App
 
-<!-- This is a README file — it explains your project to anyone who visits -->
+![Todo App Banner](images/todo-app.png)
 
 ## 🌐 Live Demo
-[Click here to view live app][Click here to view live app][Click here to view live app](https://orange-field-04b13e90f.2.azurestaticapps.net)
-
-
+👉 [Click here to view live app](https://orange-field-04b13e90f.2.azurestaticapps.net)
 
 ## 📌 About This Project
-<!-- Describe what your project does -->
-A simple Todo App where you can:
+A simple and clean Todo App built as part of my DevOps learning journey.
+
+## ✨ Features
 - ✅ Add tasks
 - ✅ Mark tasks as Done
 - ✅ Delete tasks
+- ✅ Task counter
+- ✅ Keyboard support (Press Enter to add task)
 
 ## 🛠️ Technologies Used
-<!-- List all the tools and technologies you used -->
-- HTML — Structure of the page
-- CSS — Styling and design
-- JavaScript — Interactive functionality
-- Git & GitHub — Version control
-- Jira — Project management
-- Azure — Cloud deployment
+| Technology | Purpose |
+|-----------|---------|
+| HTML | Structure of the app |
+| CSS | Styling and design |
+| JavaScript | Interactive functionality |
+| Git & GitHub | Version control |
+| Jira | Project management & sprints |
+| Azure Static Web Apps | Cloud deployment |
+| DevOps | CI/CD pipeline |
+| ALM | Application lifecycle management |
 
 ## 📸 Screenshots
-![Todo App](images/todo-app.png)
+<!-- Add your screenshots here -->
+Coming soon...
+
+## 🚀 How to Run Locally
+1. Clone the repository
+```bash
+git clone https://github.com/SwetaPatel04/todo-app.git
+```
+2. Open `index.html` in your browser
+3. Start adding tasks!
+
+## 📋 Project Management
+- Managed using **Jira** with Scrum methodology
+- 2 Sprints completed
+- 7 User Stories delivered
+
+## 🔄 CI/CD Pipeline
+- Code pushed to **GitHub**
+- **Azure Static Web Apps** auto deploys on every push
+- Live URL updates within 2-3 minutes
+
 ## 👤 Author
-<!-- Add your name here -->
-Your Name Here
+**Sweta Patel**
+- GitHub: [@SwetaPatel04](https://github.com/SwetaPatel04)
 
 ## 📅 Project Status
-<!-- Current status of the project -->
-✅ Week 1 Complete — App Built & Pushed to GitHub
-🔄 Week 2 In Progress — Jira & Azure Setup
-
-## 🔗 Jira Integration
-Connected Jira project: Todo App Project (TAP)
+✅ Sprint 1 Complete — App Built
+✅ Sprint 2 Complete — App Deployed
+🔄 Phase 2 Coming — Playwright & Jenkins
