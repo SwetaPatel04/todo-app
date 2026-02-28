@@ -40,7 +40,8 @@ function addTask() {
 
   // Find the task list using id="taskList" and add our new task to it
   document.getElementById('taskList').appendChild(li);
-  
+  updateCounter(); // Update counter when task is added
+
   // Clear the input box after adding the task
   input.value = '';
 }
@@ -64,6 +65,8 @@ function deleteTask(btn) {
   
   // .remove() completely removes the task from the page
   li.remove();
+  updateCounter(); // Update counter when task is deleted
+
 }
 
 // This adds keyboard support — press Enter to add a task
@@ -74,3 +77,15 @@ document.getElementById('taskInput')
       addTask(); // Call addTask() if Enter was pressed
     }
   });
+
+// This function updates the task counter
+// It counts how many tasks are in the list
+function updateCounter() {
+  // Find all li elements inside taskList
+  const tasks = document.getElementById('taskList')
+                        .getElementsByTagName('li');
+  
+  // Update the counter text with total number of tasks
+  document.getElementById('counter').innerText = 
+    `Total Tasks: ${tasks.length}`;
+}
