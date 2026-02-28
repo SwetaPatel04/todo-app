@@ -107,3 +107,12 @@ li.done {
   padding: 5px 10px;    /* Smaller padding than main button */
   font-size: 12px;      /* Smaller text */
 }
+
+/* Styles for the task counter */
+#counter {
+  text-align: center;   /* Centers the counter text */
+  color: #4A90E2;       /* Blue color matching our theme */
+  font-size: 14px;      /* Small text size */
+  margin-bottom: 15px;  /* Space below counter */
+  font-weight: bold;    /* Makes text bold */
+}
