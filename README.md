@@ -54,6 +54,9 @@ development, testing, and cloud deployment.
 ### 🔧 Jenkins Dashboard
 ![Jenkins Dashboard](images/jenkins-dashboard.png)
 
+### 🔧 Jenkins Pipeline Success
+![Jenkins Pipeline](images/jenkins-pipeline-success.png)
+
 ## 🚀 How to Run Locally
 1. Clone the repository
 ```bash
