@@ -57,6 +57,9 @@ development, testing, and cloud deployment.
 ### 🔧 Jenkins Pipeline Success
 ![Jenkins Pipeline](images/jenkins-pipeline-success.png)
 
+### 📋 Jira Final - All Stories Done
+![Jira Final](images/jira-final.png)
+
 ## 🚀 How to Run Locally
 1. Clone the repository
 ```bash
@@ -115,6 +118,7 @@ This project follows a complete ALM process:
 ## 📅 Project Status
 ✅ Sprint 1 Complete — App Built
 ✅ Sprint 2 Complete — App Deployed
-✅ Playwright Tests — 15/15 Passing
-✅ Jenkins — CI/CD Pipeline Setup
+✅ Playwright Tests — 5/5 Passing
+✅ Jenkins Pipeline — GREEN ✅
+✅ All Jira Stories — DONE ✅
 ✅ Project Complete! 🎉
